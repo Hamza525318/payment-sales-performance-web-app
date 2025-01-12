@@ -17,7 +17,9 @@ export default function Home() {
           >
             Payment Collection
           </Link>
-          
+          <Link href="/purchases" className="bg-yellow-400 hover:bg-yellow-500 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out w-full inline-block">
+            Purchase Entry
+          </Link>
           <Link 
             href="/sales"
             className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out w-full inline-block"
